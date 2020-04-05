@@ -548,3 +548,33 @@ N is an integer within the range [1..100,000]; K is an integer within the range 
     Note:
 
     The given integer is guaranteed to fit within the range of a 32-bit signed integer. You could assume no leading zero bit in the integer’s binary representation. This question is the same as 1009: https://leetcode.com/problems/complement-of-base-10-integer/
+    
+104. Hamming Distance
+
+     The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+
+     Given two integers x and y, calculate the Hamming distance.
+
+     Note: 0 ≤ x, y < 231.
+
+     Example:
+
+     Input: x = 1, y = 4
+
+     Output: 2
+
+     Explanation: 1 (0 0 0 1) 4 (0 1 0 0) ↑ ↑
+
+     The above arrows point to positions where the corresponding bits are different.
+     
+105. Palindrome Number
+
+     Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+
+     Example 1:
+
+     Input: 121 Output: true Example 2:
+
+     Input: -121 Output: false Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome. Example 3:
+
+     Input: 10 Output: false Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
