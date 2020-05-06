@@ -3,8 +3,8 @@
  
 0. assignment: Create a Tic Tac Toe game
 
-requirements:
-2 players should be able to play the game (both sitting at the same computer) The board should be printed out every time a player makes a move You should be able to accept input of the player position and then place a symbol on the board 
+  requirements:
+  2 players should be able to play the game (both sitting at the same computer) The board should be printed out every time a player makes a move You should be able to accept input of the player position and then place a symbol on the board 
 
 1. Fibonacci series (solution)
 Write a simple Python program which will print Fibonacci series, e.g. 1 1 2 3 5 8 13 ... . up to a given number. We prepare for cross questions like using iteration over recursion and how to optimize the solution using caching and memoization.
