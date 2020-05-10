@@ -2,9 +2,7 @@
  Python studying
  
 0. assignment: Create a Tic Tac Toe game
-
-requirements:
-2 players should be able to play the game (both sitting at the same computer) The board should be printed out every time a player makes a move You should be able to accept input of the player position and then place a symbol on the board 
+requirements: 2 players should be able to play the game (both sitting at the same computer) The board should be printed out every time a player makes a move You should be able to accept input of the player position and then place a symbol on the board 
 
 1. Fibonacci series (solution)
 Write a simple Python program which will print Fibonacci series, e.g. 1 1 2 3 5 8 13 ... . up to a given number. We prepare for cross questions like using iteration over recursion and how to optimize the solution using caching and memoization.
@@ -666,3 +664,15 @@ N is an integer within the range [1..100,000]; K is an integer within the range 
      Note:
 
      nums will have a length in the range [1, 50]. Every nums[i] will be an integer in the range [0, 99].
+
+112. Sort an Array
+
+    Given an array of integers nums, sort the array in ascending order. Example 1:
+
+    Input: nums = [5,2,3,1] Output: [1,2,3,5] Example 2:
+
+    Input: nums = [5,1,1,2,0,0] Output: [0,0,1,1,2,5]
+
+    Constraints:
+
+    1 <= nums.length <= 50000 -50000 <= nums[i] <= 50000
