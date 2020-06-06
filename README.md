@@ -714,3 +714,40 @@ N is an integer within the range [1..100,000]; K is an integer within the range 
    Input: [2,0,2,1,1,0] Output: [0,0,1,1,2,2] Follow up:
 
    A rather straight forward solution is a two-pass algorithm using counting sort. First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then 1's and followed by 2's. Could you come up with a one-pass algorithm using only constant space?
+   
+116. 4Sum
+
+    Given an array nums of n integers and an integer target, are there elements a, b, c, and d in nums such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.
+
+    Note:
+
+    The solution set must not contain duplicate quadruplets.
+
+    Example:
+
+    Given array nums = [1, 0, -1, 0, -2, 2], and target = 0.
+
+    A solution set is:
+    [
+      [-1,  0, 0, 1],
+      [-2, -1, 1, 2],
+      [-2,  0, 0, 2]
+    ]
+117. Container With Most Water
+
+    Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+
+    Note: You may not slant the container and n is at least 2.
+
+
+
+
+
+    The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+
+
+
+    Example:
+
+    Input: [1,8,6,2,5,4,8,3,7]
+    Output: 49
