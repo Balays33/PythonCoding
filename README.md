@@ -782,3 +782,37 @@ Input: [1,8,6,2,5,4,8,3,7] Output: 49
     You must use only constant, O(1) extra space.
     Your runtime complexity should be less than O(n2).
     There is only one duplicate number in the array, but it could be repeated more than once.
+    
+123. Plus One
+
+   Given a non-empty array of digits representing a non-negative integer, increment one to the integer.
+
+   The digits are stored such that the most significant digit is at the head of the list, and each element in the array contains a single digit.
+
+   You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+   Example 1:
+
+   Input: [1,2,3] Output: [1,2,4] Explanation: The array represents the integer 123. Example 2:
+
+   Input: [4,3,2,1] Output: [4,3,2,2] Explanation: The array represents the integer 4321.
+
+124. Prison Cells After N Days
+
+   There are 8 prison cells in a row, and each cell is either occupied or vacant.
+
+   Each day, whether the cell is occupied or vacant changes according to the following rules:
+
+   If a cell has two adjacent neighbors that are both occupied or both vacant, then the cell becomes occupied. Otherwise, it becomes vacant. (Note that because the prison is a row, the first and the last cells in the row can't have two adjacent neighbors.)
+
+   We describe the current state of the prison in the following way: cells[i] == 1 if the i-th cell is occupied, else cells[i] == 0.
+
+   Given the initial state of the prison, return the state of the prison after N days (and N such changes described above.)
+
+   Example 1:
+
+   Input: cells = [0,1,0,1,1,0,0,1], N = 7 Output: [0,0,1,1,0,0,0,0] Explanation: The following table summarizes the state of the prison on each day: Day 0: [0, 1, 0, 1, 1, 0, 0, 1] Day 1: [0, 1, 1, 0, 0, 0, 0, 0] Day 2: [0, 0, 0, 0, 1, 1, 1, 0] Day 3: [0, 1, 1, 0, 0, 1, 0, 0] Day 4: [0, 0, 0, 0, 0, 1, 0, 0] Day 5: [0, 1, 1, 1, 0, 1, 0, 0] Day 6: [0, 0, 1, 0, 1, 1, 0, 0] Day 7: [0, 0, 1, 1, 0, 0, 0, 0]
+
+   Example 2:
+
+   Input: cells = [1,0,0,1,0,0,1,0], N = 1000000000 Output: [0,0,1,1,1,1,1,0]
