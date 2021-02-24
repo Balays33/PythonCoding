@@ -816,3 +816,34 @@ Input: [1,8,6,2,5,4,8,3,7] Output: 49
    Example 2:
 
    Input: cells = [1,0,0,1,0,0,1,0], N = 1000000000 Output: [0,0,1,1,1,1,1,0]
+
+129. Rotate Array
+
+   Given an array, rotate the array to the right by k steps, where k is non-negative.
+
+   Follow up:
+
+   Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem. Could you do it in-place with O(1) extra space?
+
+   Example 1:
+
+   Input: nums = [1,2,3,4,5,6,7], k = 3 Output: [5,6,7,1,2,3,4] Explanation: rotate 1 steps to the right: [7,1,2,3,4,5,6] rotate 2 steps to the right: [6,7,1,2,3,4,5] rotate 3 steps to the right: [5,6,7,1,2,3,4] Example 2:
+
+   Input: nums = [-1,-100,3,99], k = 2 Output: [3,99,-1,-100] Explanation: rotate 1 steps to the right: [99,-1,-100,3] rotate 2 steps to the right: [3,99,-1,-100]
+
+   Constraints:
+
+   1 <= nums.length <= 2 * 10^4 It's guaranteed that nums[i] fits in a 32 bit-signed integer. k >= 0
+  
+130. Fizz Buzz
+
+     Write a program that outputs the string representation of numbers from 1 to n.
+
+     But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+
+     Example:
+
+     n = 15,
+
+     Return: [ "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8",
+     "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz" ]
