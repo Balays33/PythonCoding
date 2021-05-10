@@ -920,3 +920,23 @@ Input: [1,8,6,2,5,4,8,3,7] Output: 49
     1 <= s.length <= 15
     s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
     It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+   
+133.Reverse String
+
+Example 1:
+
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+Example 2:
+
+Input: s = ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+ 
+
+Constraints:
+
+1 <= s.length <= 105
+s[i] is a printable ascii character.
+ 
+
+Follow up: Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
